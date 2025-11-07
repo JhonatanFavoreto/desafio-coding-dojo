@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #e4e4e4;
+    color: #222;
+}
+
+main{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 700px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+#container {
+    width: 50%;
+    height: 100%;
+    padding: 32px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#bemVindo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+#bemVindo h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#bemVindo p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.email,
+.senha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email input,
+.senha input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #d6dce6;
+    background: #fafcff;
+    font-size: 0.95rem;
+    transition: box-shadow .12s ease, border-color .12s ease;
+}
+
+#check {
+    display: flex;
+    gap: 8px;
+}
+
+.esqueceu {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    gap: 60px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.esqueceu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.entrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.entrar button {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #0066ff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(42,167,255,0.18);
+}
+
+.imagem{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,40 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+</head>
+<body>
+  <main>
+    <section id="container">
+      <form id="loginForm" action="#" method="post" autocomplete="on" novalidate>
+        <div id="bemVindo">
+          <h1>Bem-vindo!</h1>
+          <p>Faça login para continuar</p>
+        </div>
+
+        <div class="form-row email">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@exemplo.com" required />
+        </div>
+
+        <div class="form-row senha">
+          <label for="senha">Senha</label>
+          <input id="senha" name="senha" type="password" placeholder="••••••••" required minlength="6" />
+        </div>
+
+        <div class="esqueceu">
+          <a href="#" aria-label="Recuperar senha">Esqueceu sua senha?</a>
+        </div>
+
+        <div class="entrar">
+          <button type="submit">Entrar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

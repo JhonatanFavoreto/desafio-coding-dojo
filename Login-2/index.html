@@ -1,0 +1,46 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+</head>
+<body>
+  <main>
+    <section id="container-geral">
+      <section id="container"> 
+          <div id="bemVindo">
+            <h1>Faça seu login</h1>
+          </div>
+  
+          <div class="form-row email">
+            <label for="email"><h4>E-mail</h4></label>
+            <input id="email" name="email" type="email" placeholder="📧 eduardo@gmail.com" required />
+          </div>
+  
+          <div class="form-row senha">
+            <label for="senha"><h4>Senha</h4></label>
+            <input id="senha" name="senha" type="password" placeholder="🔒 sua senha" required minlength="6" />
+          </div>
+  
+          <div class="esqueceu">
+            <div id="check">
+              <input type="checkbox"><p>Lembrar de mim</p>
+            </div>
+              <a href="#" aria-label="Recuperar senha"><p>Esqueci minha senha</p></a>
+          </div>
+  
+          <div class="entrar">
+            <button type="submit"><h4>Entrar</h4></button>
+          </div>
+  
+      </section>
+      <section class="imagem">
+        <img src="./assets/images/city.jpg" alt="cidade">
+      </section>
+    </section>
+  </main>
+</body>
+</html>
